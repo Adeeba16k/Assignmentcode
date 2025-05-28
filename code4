@@ -1,0 +1,13 @@
+my_set = {1, 2, 3, 4}
+
+# Add
+my_set.add(5)
+
+# Remove
+my_set.remove(2)
+
+# Union
+print(my_set.union({6, 7}))
+
+# Intersection
+print(my_set.intersection({3, 4, 5}))
