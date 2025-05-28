@@ -1,0 +1,13 @@
+def classify_numbers(numbers):
+    counts = {"positive": 0, "zero": 0, "negative": 0}
+    for x in numbers:
+        if x > 0:
+            print(f"{x} is positive")
+            counts["positive"] += 1
+        elif x == 0:
+            print(f"{x} is zero")
+            counts["zero"] += 1
+        else:
+            print(f"{x} is negative")
+            counts["negative"] += 1
+    return counts
