@@ -1,0 +1,15 @@
+marks = (70, 80, 90, 85, 75)
+
+# I
+print("First:", marks[0])
+print("Last:", marks[-1])
+
+# II
+m1, m2, m3, m4, m5 = marks
+
+# III
+new_marks = tuple(mark + 5 for mark in marks)
+
+# IV
+print("Original:", marks)
+print("New:", new_marks)
