@@ -1,0 +1,18 @@
+numbers = [5, 12, 7, 18, 9, 24, 3, 16, 11]
+
+div3 = even = odd = 0
+
+for x in numbers:
+    if x % 3 == 0:
+        print(f"{x} is divisible by 3")
+        div3 += 1
+    elif x % 2 == 0:
+        print(f"{x} is even but not divisible by 3")
+        even += 1
+    else:
+        print(f"{x} is odd and not divisible by 3")
+        odd += 1
+
+print(f"Divisible by 3: {div3}")
+print(f"Even (not div by 3): {even}")
+print(f"Odd (not div by 3): {odd}")
