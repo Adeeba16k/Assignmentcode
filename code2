@@ -1,0 +1,23 @@
+my_list = [1, 2, 3, 4]
+
+# Access items
+print(my_list[1])  # 2
+
+# Loop
+for item in my_list:
+    print(item)
+
+# Add item
+my_list.append(5)
+
+# Remove item
+my_list.remove(2)
+
+# Sort
+my_list.sort()
+
+# Copy
+new_list = my_list.copy()
+
+# List comprehension
+squares = [x**2 for x in my_list]
