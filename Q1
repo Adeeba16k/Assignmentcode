@@ -1,0 +1,3 @@
+x="10"
+y=int(x) casting string to int
+print(y+5)  # its output is 15 
