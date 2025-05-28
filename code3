@@ -1,0 +1,25 @@
+my_tuple = (10, 20, 30)
+
+# Access items
+print(my_tuple[1])  # 20
+
+# Loop
+for item in my_tuple:
+    print(item)
+
+# Join
+t1 = (1, 2)
+t2 = (3, 4)
+t3 = t1 + t2
+
+# Update (by creating new)
+t4 = list(my_tuple)
+t4[0] = 99
+my_tuple = tuple(t4)
+
+# Unpack
+a, b, c = my_tuple
+
+# Methods
+print(my_tuple.count(10))
+print(my_tuple.index(30))
